@@ -3,7 +3,6 @@ from pages.login import Login
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
-
 class Application:
 	def	__init__(self):
 		#self.wd = webdriver.Chrome(executable_path="C:\\Python_project\\Test_Sotka\\drivers\\chromedriver.exe")
